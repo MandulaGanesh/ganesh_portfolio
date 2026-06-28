@@ -484,3 +484,20 @@ section{
     }
 
 }
+.buttons{
+    display:flex;
+    gap:20px;
+}
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+@media (max-width:900px){
+    .buttons{
+        justify-content:center;
+        align-items:center;
+    }
+}
